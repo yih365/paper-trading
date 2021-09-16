@@ -1,0 +1,75 @@
+
+CHART DATA
+///////////////////////////////////////////////////////////////////////////////////
+// iex.chart("AAPL", "1m").then((res) => {
+//     console.log(res);
+// }).catch((error) => {
+//     console.log(error);
+// });
+
+EX. USAGE
+//////////////////////////////////////////////////////////////////////////////////////////////////
+iex.quote("AAPL").then((e) => {
+    console.log(e);
+});
+
+output below ...............................................................
+
+{
+[1]   avgTotalVolume: 77290813,
+[1]   calculationPrice: 'iexlasttrade',
+[1]   change: -1.28,
+[1]   changePercent: -0.00856,
+[1]   close: null,
+[1]   closeSource: 'official',
+[1]   closeTime: null,
+[1]   companyName: 'Apple Inc',
+[1]   currency: 'USD',
+[1]   delayedPrice: null,
+[1]   delayedPriceTime: null,
+[1]   extendedChange: null,
+[1]   extendedChangePercent: null,
+[1]   extendedPrice: null,
+[1]   extendedPriceTime: null,
+[1]   high: null,
+[1]   highSource: null,
+[1]   highTime: null,
+[1]   iexAskPrice: 0,
+[1]   iexAskSize: 0,
+[1]   iexBidPrice: 0,
+[1]   iexBidSize: 0,
+[1]   iexClose: 148.27,
+[1]   iexCloseTime: 1631649597948,
+[1]   iexLastUpdated: 1631650193402,
+[1]   iexMarketPercent: 0.012548990040548805,
+[1]   iexOpen: 148.39,
+[1]   iexOpenTime: 1631650193402,
+[1]   iexRealtimePrice: 148.39,
+[1]   iexRealtimeSize: 1,
+[1]   iexVolume: 1369799,
+[1]   lastTradeTime: 1631649610056,
+[1]   latestPrice: 148.27,
+[1]   latestSource: 'IEX Last Trade',
+[1]   latestTime: 'September 14, 2021',
+[1]   latestUpdate: 1631649597948,
+[1]   latestVolume: null,
+[1]   low: null,
+[1]   lowSource: null,
+[1]   lowTime: null,
+[1]   marketCap: 2450927712820,
+[1]   oddLotDelayedPrice: null,
+[1]   oddLotDelayedPriceTime: null,
+[1]   open: null,
+[1]   openTime: null,
+[1]   openSource: 'official',
+[1]   peRatio: 29.07,
+[1]   previousClose: 149.55,
+[1]   previousVolume: 102404329,
+[1]   primaryExchange: 'NASDAQ',
+[1]   symbol: 'AAPL',
+[1]   volume: null,
+[1]   week52High: 157.26,
+[1]   week52Low: 102.44,
+[1]   ytdChange: 0.12379834163073235,
+[1]   isUSMarketOpen: false
+[1] }
