@@ -1,16 +1,16 @@
 module.exports = {
     session: {
-        key: 'userId',
-        secret: 'GUESTguest123321'
+        key: 'PRIVATE',
+        secret: 'PRIVATE'
     },
     db: {
-        user: "root",
-        host: "localhost",
-        password: "#GUESTguest321123",
-        database: "trading_app"
+        user: "PRIVATE",
+        host: "PRIVATE",
+        password: "#PRIVATE",
+        database: "PRIVATE"
     },
     IEX: {
-        api_token: "pk_1184eab061734f7ea64ffce9bd25fce2",
+        api_token: "PRIVATE",
         version: "v1"
     }
 }
