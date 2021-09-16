@@ -1,20 +1,20 @@
-import React from 'react';
+import React, { useState } from 'react';
 import { BrowserRouter as Switch, Route, Router } from 'react-router-dom';
-
+ 
 /**
  * Import all page components here
  */
-import App from './App';
+import Main from './Main';
 import Account from './Account';
 import Quote from './Quote';
  
-const Main = () => {
+const Routes = () => {
+  console.log('started');
  
   return (
-    
-    <Switch> {/* The Switch decides which component to show based on the current URL.*/}
+      <Switch> {/* The Switch decides which component to show based on the current URL.*/}
       <Route exact path='/'>
-          <App />
+          <Main />
       </Route>
  
       <Route exact path='/account'>
@@ -29,5 +29,5 @@ const Main = () => {
   );
 }
  
-export default Main;
+export default Routes;
 
